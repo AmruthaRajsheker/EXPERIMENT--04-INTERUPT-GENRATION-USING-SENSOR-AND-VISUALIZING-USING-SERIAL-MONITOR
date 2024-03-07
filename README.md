@@ -54,6 +54,7 @@ The system runs the ISR and then goes back to the main program. The NVIC and EXT
  
 Interrupt Lines (EXTI0-EXTI15)
 The STM32 ARM microcontroller features 23 event sources which are divided into two sections. The first section corresponds t external pins on each port which are P0-P15. The second section corresponds to RTC, ethernet, USB interrupts. Therefore, in the first section, we have 16 lines corresponding to line0 till line15. All of these map to a pin number.
+
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/36288975/1110746f-6be2-4d12-9a34-66004e4b307b)
 
 
@@ -65,7 +66,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
  ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
 
 2. click on FILE, click on new stm 32 project 
- ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
+![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
 ![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
 
 3. select the target to be programmed  as shown below and click on next 
@@ -113,7 +114,6 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 16. flash the bin or hex file as shown below by switching the switch to flash mode 
 ![image](https://user-images.githubusercontent.com/36288975/227599656-dc4a635f-b5f1-44c8-84c5-ee0a592fa184.png)
 
-
 17. check for execution of the output by switching the board to run mode 
 
 18. click on the serial port utility 
@@ -125,7 +125,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
   
 
 ## STM 32 CUBE PROGRAM :
-
+```
 #include "main.h"
 #include "stdio.h"
 
@@ -163,6 +163,7 @@ PUTCHAR_PROTOTYPE
   HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0XFFF);
   return ch;
 }
+```
 
 
 ## Output screen shots of serial port utility   :
@@ -170,8 +171,7 @@ PUTCHAR_PROTOTYPE
 
  
 ## Circuit board :
-
-![image](https://github.com/AmruthaRajsheker/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119475943/3651bac0-ca0a-4c3e-bc26-723fe85ffba4)
+![image](https://github.com/AmruthaRajsheker/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119475943/422c8aa4-669f-4a3f-ab94-c7930bccd717)
 
  
 ## Result :
