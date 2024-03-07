@@ -59,10 +59,6 @@ The STM32 ARM microcontroller features 23 event sources which are divided into t
 
 The diagram below shows how the GPIO pins are connected to the 16 interrupt lines:
 
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Procedure:
 1. click on STM 32 CUBE IDE, the following screen will appear 
