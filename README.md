@@ -125,7 +125,8 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
   
 
 ## STM 32 CUBE PROGRAM :
-``` #include "main.h"
+
+#include "main.h"
 #include "stdio.h"
 
 void SystemClock_Config(void);
@@ -162,7 +163,7 @@ PUTCHAR_PROTOTYPE
   HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0XFFF);
   return ch;
 }
-```
+
 
 ## Output screen shots of serial port utility   :
  ![exp4](https://github.com/AmruthaRajsheker/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119475943/873a851e-6596-4ea4-8cfb-aed64467a98d)
