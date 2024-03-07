@@ -166,6 +166,13 @@ PUTCHAR_PROTOTYPE
 
 ```
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Output screen shots of serial port utility   :
  ![exp4](https://github.com/AmruthaRajsheker/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119475943/873a851e-6596-4ea4-8cfb-aed64467a98d)
