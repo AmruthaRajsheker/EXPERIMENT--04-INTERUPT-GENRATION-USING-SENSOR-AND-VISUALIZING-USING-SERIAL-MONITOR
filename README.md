@@ -145,7 +145,8 @@ int main(void)
   {
   }
 }
-
+```
+```
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
   if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == 1)
